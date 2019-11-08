@@ -446,7 +446,7 @@
     "message": "Modifier le mot de passe maître"
   },
   "changeMasterPasswordConfirmation": {
-    "message": "Vous pouvez modifier votre mot de passe maître depuis le coffre web sur bitwarden.com. Souhaitez-vous visiter le site maintenant ?"
+    "message": "Vous pouvez modifier votre mot de passe maître depuis les paramètres de votre Cozy. Souhaitez-vous le faire maintenant ?"
   },
   "editedFolder": {
     "message": "Dossier modifié"

@@ -446,7 +446,7 @@
     "message": "Change Master Password"
   },
   "changeMasterPasswordConfirmation": {
-    "message": "You can change your master password on the bitwarden.com web vault. Do you want to visit the website now?"
+    "message": "You can change your master password in your Cozy's settings. Do you want to do it now?"
   },
   "editedFolder": {
     "message": "Edited folder"

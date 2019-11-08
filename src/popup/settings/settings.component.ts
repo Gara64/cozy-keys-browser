@@ -185,7 +185,11 @@ export class SettingsComponent implements OnInit {
             this.i18nService.t('changeMasterPasswordConfirmation'), this.i18nService.t('changeMasterPassword'),
             this.i18nService.t('yes'), this.i18nService.t('cancel'));
         if (confirmed) {
-            BrowserApi.createNewTab('https://help.bitwarden.com/article/change-your-master-password/');
+            const baseUrl = this.environmentService.baseUrl.split('/bitwarden')[0];
+            const domains = baseUrl.split('.');
+            domains[0] += '-settings';
+            const url = domains.join('.') + '/#/profile';
+            BrowserApi.createNewTab(url);
         }
     }
 
